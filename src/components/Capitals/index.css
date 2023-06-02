@@ -1,0 +1,57 @@
+/* Write your CSS here */
+.capitals-app {
+  background-color: #93c5fd;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  align-items: center;
+}
+.content-card {
+  border-radius: 12px;
+  background-color: #f8fafc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 35px;
+  font-weight: 700;
+  color: #000000;
+}
+.question-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.selected-capital {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 600;
+  color: #1e293b;
+  margin-right: 10px;
+  border-style: solid;
+  outline-color: #cbd2d9;
+  height: 30px;
+}
+.question {
+  font-family: 'Roboto';
+  color: #323f4b;
+  font-size: 23px;
+}
+.country-name {
+  color: #000000;
+  font-size: 35px;
+  font-weight: 700;
+}
+.option {
+  color: #323f4b;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+}
